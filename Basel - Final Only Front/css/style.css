@@ -1,0 +1,1736 @@
+/* Default */
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+p,ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Section Start */
+header#top{
+    padding: 10px 0px;
+    background: #1daaa3;
+    color: white!important;
+    text-decoration: none!important;
+}
+.contain{
+    position: relative;
+}
+/* Left Section */
+header#top main{
+    padding: 0px 20px;
+}
+
+header#top section:nth-child(1) div {
+    line-height: 0px;
+    margin-bottom: 0rem !important;
+}
+header#top section:nth-child(1) form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+    header#top section:nth-child(1) form label{
+        font-size:1em;
+        margin:10px 0px;
+    }
+    header#top section:nth-child(1) form select {
+        width: 120px;
+        padding: 2px 10px;
+        margin: 0px 15px;
+        height: calc(2.25rem + -6px);
+        font-size: 0.9rem;
+    }
+        header#top section:nth-child(1) form select:focus{
+            box-shadow: 0 0 0 0;
+        }
+
+/* Right Section */
+header#top section:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header#top section:nth-child(3) a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.7em;
+    transition: all 0.5s ease-in-out;
+}
+header#top section:nth-child(3) a:hover{
+    text-decoration: underline;
+}
+
+/* Nav Section Start */
+nav{
+    position: relative;
+}
+nav#main{
+    position: sticky;
+    top: 0px;
+    padding: 0px 20px;
+    z-index: 2000;
+    background: #ffffff;
+}
+nav#main section.menu:nth-child(1){
+    height: 100%!important;
+}
+/* Navbar Section */
+nav#main section.menu:nth-child(1) ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav#main section.menu:nth-child(1)>ul>li{
+    transition: all 0.4s ease-in-out;
+    font-size: 0.85em;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    padding: 40px 0px;
+}
+
+/*  Shop Will Open Section When Hover to ShopLi  */
+aside#shopWillOpen{
+    width: 100%;
+    position: absolute;
+    top: 106px;
+    left: 0;
+    background: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+}
+/* SubMenu Section */
+aside#shopWillOpen main>section:nth-child(1){
+    padding: 20px 114px;
+}
+aside#shopWillOpen main>section:nth-child(1) section h4 a{
+    font-size: 0.6em;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+aside#shopWillOpen main>section:nth-child(1) section h4 a:hover{
+    color: #1aada3;
+}
+aside#shopWillOpen main>section:nth-child(1) section ul{
+    list-style: none;
+}
+aside#shopWillOpen main>section:nth-child(1) section ul li{
+    margin: 10px 0px;
+}
+aside#shopWillOpen main>section:nth-child(1) section ul li a{
+    color: rgb(56, 55, 55);
+    font-size: 0.9em;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside#shopWillOpen main>section:nth-child(1) section ul li a:hover{
+    color: #1aada3;
+    margin-left: 5px;
+}
+aside#shopWillOpen main>section:nth-child(1) section p{
+    margin-top: 30px;
+    font-weight: bold;
+}
+aside#shopWillOpen main>section:nth-child(1) section span{
+    font-size: 0.8em;
+    color: #1a1919;
+}
+/* Right Image Section */
+aside#shopWillOpen>main>section:nth-child(2){
+    border-left: 1px solid #dddcdc;
+    padding: 0px 60px;
+}
+aside#shopWillOpen main.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+aside#shopWillOpen main.image img{
+    width: 70%!important;
+    height: 300px;
+}
+aside#shopWillOpen main.image a{
+    color: rgb(107, 106, 106);
+    text-decoration: none;
+    cursor: pointer;
+}
+aside#shopWillOpen main.image p{
+    color: #1aada3;
+}
+aside#shopWillOpen main.image section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+aside#shopWillOpen main.image section div{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    margin: 0px 3px;
+}
+
+/* Open Section When hover to Li */
+nav#main section.menu:nth-child(1) ul li section.liHoverSec{
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec ul li{
+    margin: 10px;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec ul li a{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec ul li a:hover{
+    margin-left: 8px;
+    color: #1aada3;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec.blog{
+    width: 150px;
+    height: auto;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec.pages{
+    width: 850px;
+    height: auto;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec.feature{
+    width: 850px;
+    height: auto;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec main section{
+    width: 100%;    
+    padding: 20px;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec main section h4{
+    width: 100%;    
+    padding: 0px 20px;
+}
+nav#main section.menu:nth-child(1) ul li section.liHoverSec main section h4 a{
+    font-size: 0.65em;
+    color: #000;
+    font-weight: bold;
+}
+
+/*  */
+nav#main section.menu:nth-child(1) ul li a{
+    color: #000;
+    text-decoration: none;
+    color: #7a7a7a;
+    font-weight: 500;
+}
+nav#main section.menu:nth-child(1) ul li:hover span{
+    color: #1daaa3;
+}
+nav#main section.menu:nth-child(1) ul li:nth-child(2){
+    position: relative;
+}
+nav#main section.menu:nth-child(1) ul li.liHover:nth-child(2)::before{
+    content: "SALE";
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    width: 25px;
+    height: 15px;
+    background: red;
+    font-size: 0.6em;
+    color: #ffffff;
+    text-align: center;
+    line-height: 15px;
+}
+
+/* Logo Section */
+nav#main section:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+nav#main section:nth-child(2) img{
+    width: 40%;
+    height: auto;
+    cursor: pointer;
+} 
+/* Right Section */
+nav#main section.rightSec:nth-child(3) ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 0px 20px;
+}
+nav#main section.rightSec:nth-child(3) ul li{
+    cursor: pointer;
+}
+nav#main section.rightSec:nth-child(3) ul li i{
+    font-size: 1.2em;
+}
+nav#main section.rightSec:nth-child(3) ul li:nth-child(1){
+    margin-right: 40px;
+    font-size: 0.75em;
+    color: #7a7a7a;
+}
+nav#main section.rightSec:nth-child(3) ul li:nth-child(1):hover{
+    text-decoration: underline;
+}
+nav#main section.rightSec:nth-child(3) ul a{
+    color: #000;
+    text-decoration: none;
+}
+nav#main section.rightSec:nth-child(3) ul li:nth-child(2) i:nth-child(2){
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    transition: all 0.4s ease-in-out;
+}
+nav#main section.rightSec:nth-child(3) ul li:nth-child(3) a{
+    position: relative;
+}
+nav#main section.rightSec:nth-child(3) ul li:nth-child(3) a span{
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 15px;
+    height: 15px;
+    background: #1daaa3;
+    color: #ffffff;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 15px;
+    font-size: 0.7em;
+}
+#navBarIcon{
+    display: none;
+}
+/* Shopping Section */
+
+/* Navbar Resposiv Section Start */
+section#navBar{
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #000;
+    z-index: 3000;
+    transition: all 0.2s ease-in-out;
+    overflow-y: scroll;
+}
+/* Header Section */
+section#navBar header #common{
+    position: relative;
+    width: 100%;
+}
+section#navBar header #common input:focus{
+   border: 0px;
+   outline: 0px; 
+   box-shadow: 0 0 0 0;
+}
+section#navBar header #common button{
+    position: absolute;
+    top: 50%;
+    background: transparent;
+    right: 20px;
+    font-size: 1.2em;
+    transform: translateY(-50%);
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    color: #fff;
+}
+section#navBar header #common input{
+    background-color: rgba(255,255,255,.1);
+    border: none;
+    border: 1px solid rgba(208,208,208,.09);
+    padding: 14px 50px 14px 18px;
+    font-size: 14px;
+    color: #fff;
+    height: 48px;
+}
+
+/* search outcome */
+section#navBar #seekYield{
+    width: 100%;
+    height: auto;
+}
+section#navBar #seekYield section{
+    margin: 20px 20px;
+} 
+section#navBar #seekYield section a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+}
+section#navBar  #seekYield section div.image{
+    width: 35px;
+}
+section#navBar  #seekYield section div.image img{
+    width: 100%;
+    height: auto;
+}
+section#navBar #seekYield section div.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+section#navBar  #seekYield section div.info p{
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+section#navBar #seekYield section div.info span{
+    color: rgb(170, 167, 167);
+    font-size: 0.6em;
+}
+/* Search Section End */
+
+/* Li Section */
+section#navBar main ul{
+    width: 100%;
+}
+section#navBar main ul li{
+    width: 100%;
+    border-bottom: 1px solid #333333;
+    background: #000;
+}
+section#navBar main ul li:first-child{
+    border-top: 1px solid #333333;
+}
+section#navBar main ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 15px;
+    color: #dddcdc;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: #000;
+}
+section#navBar main ul li section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+}
+section#navBar main ul li section i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 15px;
+    transform: translateY(-50%);
+    border-left: 1px solid #333333;
+    cursor: pointer;
+}
+section#navBar main ul li section i:nth-child(3){
+    display: none;
+}
+section#navBar main ul li a:hover{
+    color: #1aada3;
+}
+
+section#navBar main ul li ul{
+    background: #171717;
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+section#navBar main ul li ul li a{
+    background: #171717;
+}
+#blackWrapNav{
+    transition: all 0.1s ease-in;
+    position: fixed;
+    z-index: 2500;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+}
+/* Navbar Resposiv Section End */
+
+/* Search Section Start */
+section#searchOpen{
+    transition: all 0.4s ease-in-out;
+    width: 100%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    overflow: scroll;
+}
+/* html, body {margin: 0; height: 100%; overflow: hidden} */
+section#searchOpen div.inputSec{
+    position: absolute;
+    top: 50px;
+    left: 65px;
+    width: 90%;
+}
+section#searchOpen div.inputSec input{
+   background: transparent;
+   border: none;
+   outline: none;
+   box-shadow: none;
+   border-radius: 0px;
+   height: 100px;
+   border-bottom: 1px solid gainsboro; 
+   font-size: 4em;
+}
+
+section#searchOpen div.close{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section#searchOpen div.close i{
+    font-size: 2.5em;
+    color: #ffffff;
+}
+/* search outcome */
+section#searchOpen #searchOutCome{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+
+}
+section#searchOpen #searchOutCome section a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+section#searchOpen #searchOutCome section div.image{
+    width: 110px;
+}
+section#searchOpen #searchOutCome section div.image img{
+    width: 100%;
+    height: auto;
+}
+section#searchOpen #searchOutCome section div.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+section#searchOpen #searchOutCome section div.info p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+section#searchOpen #searchOutCome section div.info span{
+    color: rgb(170, 167, 167);
+}
+/* Search Section End */
+
+/* BuyFromShop Section Start */
+section#BuyFromShop{
+    transition: all 0.2s ease-in-out;
+    width: 350px;
+    height: 100%;
+    background: rgba(0, 0, 0);
+    z-index: 3000;
+    position: fixed;
+    right: -350px;
+    bottom: 0;
+}
+section#BuyFromShop  header main{
+    height: 100px;
+}
+section#BuyFromShop main>section:nth-child(1) h5{
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+section#BuyFromShop main>section:nth-child(2){
+    color: #ffffff;
+}
+section#BuyFromShop main>section:nth-child(2) p{
+    cursor: pointer;
+}
+section#BuyFromShop main>section:nth-child(2) span{
+    margin: 0px 5px;
+    color: #ffffff;
+}
+
+section#BuyFromShop>main{
+    background: #ffffff;
+    height: 100%;
+    padding: 20px;
+    color: #ada9a9;
+    font-size: 0.9em;
+}
+section#BuyFromShop>main p i{
+    margin-right: 30px;
+    font-size: 2.5em;
+}
+section#BuyFromShop>main>p{
+    display: none;
+}
+/*  */
+section#BuyFromShop #newProduct section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    border-bottom: 1px solid #ddd9d9;
+    padding: 10px 0px;
+}
+section#BuyFromShop #newProduct section .img img{
+    width: 60px;
+    height: 80px;
+}
+section#BuyFromShop #newProduct section .info{
+    margin: 0px 20px;
+    font-size: 0.8em;
+}
+section#BuyFromShop #newProduct section .info h6{
+    font-size: 1.1em;
+}
+section#BuyFromShop #newProduct section .deleteIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.1em;
+    text-align: end;
+    cursor: pointer;
+}
+
+section#BuyFromShop div.SubTotal{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd9d9;
+}
+section#BuyFromShop div.SubTotal span{
+    color: #1aada3;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+section#BuyFromShop div.button button{
+    margin: 15px 0px;
+}
+/* Black Layout For Shop Cart */
+#blackWrap{
+    transition: all 0.1s ease-in;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+    z-index: 2001;
+}
+/* BuyFromShop Section End */
+
+/* Login And Regsiter Section Start */
+section#loginAndSection{
+    transition: all 0.2s ease-in-out;
+    width: 350px;
+    height: 100%;
+    background: rgba(0, 0, 0);
+    z-index: 3000;
+    position: fixed;
+    top: 0;
+    right: -350px;
+}
+section#loginAndSection  header main{
+    height: 100px;
+}
+section#loginAndSection section:nth-child(1) h5{
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+section#loginAndSection section:nth-child(2){
+    color: #ffffff;
+}
+section#loginAndSection section:nth-child(2) p{
+    cursor: pointer;
+}
+section#loginAndSection section:nth-child(2) span{
+    margin: 0px 5px;
+    color: #ffffff;
+}
+
+section#loginAndSection>main{
+    background: #ffffff;
+    height: 100%;
+    padding: 20px;
+    color: #ada9a9;
+    font-size: 0.9em;
+}
+section#loginAndSection>main i{
+    margin-right: 30px;
+    font-size: 2.5em;
+}
+
+section#rememberSec{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section#rememberSec>div{
+    margin: 0px;
+}
+section#rememberSec a{
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+section#rememberSec a:hover{
+    color: #1aada3;
+}
+/* Or Login With */
+section#orLoginWith{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+section#orLoginWith span::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 105px;
+    height: 1px;
+    background: #aaa5a5;
+}
+section#orLoginWith span::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 105px;
+    height: 1px;
+    background: #aaa5a5;
+}
+/* Secial Section */
+section#socialSec button{
+    padding: 5px 0px;
+}
+section#socialSec>div{
+    margin-top: 25px;
+    width: 100%;
+    height: 1px;
+    background: #cfcece;
+}
+/* Create Account Section */
+section#createAccount{
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #676767;
+}
+section#createAccount i{
+    font-size: 3.5em!important;
+    padding: 0px;
+    margin: 0px!important;
+}
+section#createAccount p{
+    margin: 15px 0px;
+}
+section#createAccount a{
+    text-decoration: none;
+    color: #000;
+}
+/* Login And Regsiter Section End */
+
+/* Nav Section End */
+
+/* Slide Section Start */
+section#slide{
+    width: 100%;
+    height: auto;
+    background: #676767;
+}
+section#slide .carousel-item section{
+    position: absolute;
+    top:0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#slide .carousel-item>img{
+    width: 100%;
+    height: 600px;
+}
+section#slide .carousel-item:first-child section {
+    flex-direction: row;
+}
+section#slide .carousel-item:first-child section div.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+section#slide .carousel-item:first-child section h1{
+    font-size: 5em;
+    text-align: start;
+}
+section#slide .carousel-item:first-child section p{
+    color: #aaaaaa;
+    font-weight: 500;
+    text-align: start;
+}
+section#slide .carousel-item:nth-child(2) section{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+section#slide .carousel-item:nth-child(2) section img{
+    width: 30%;
+    height: 90%;
+}
+section#slide .carousel-item:nth-child(2) section aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 80px;
+}
+section#slide .carousel-item:nth-child(2) section aside h1{
+    font-size: 4.5em;
+}
+section#slide .carousel-item:nth-child(2) section aside h2{
+    margin: 30px 0px;
+    font-size: 3.5em;
+    font-family: cursive;
+}
+section#slide .carousel-item:nth-child(3) section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section#slide .carousel-item:nth-child(3) section h1{
+    font-size: 7em;
+}
+section#slide .carousel-item:nth-child(3) section h2{
+    font-size: 3.5em;
+    font-family: cursive;
+}
+section#slide a section{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 70px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.8,0.8);
+    background-size: cover;
+}
+
+/* Slide Section End */
+
+
+/* FEATURED CATEGORIES Start */
+section#categories{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+section#categories header{
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section#categories header h5{
+    color: #9b9b9b;
+    font-size: 14px;
+}
+section#categories header h2{
+    font-family: Karla,'MS Sans Serif',Geneva,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+section#categories header p{
+    color: #9b9b9b;
+    text-align: center;
+}
+section#categories header p a{
+    color: #1aada3;
+    text-decoration: underline;
+}
+
+section#categories main{
+    padding: 0px 100px;
+}
+
+section#categories main section a{
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+section#categories main section button{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+}
+section#categories main section:nth-child(1) a{
+    width: 500px;
+    height: auto;
+}
+section#categories main section:nth-child(2) a{
+    width: 240px;
+    height: auto;
+}
+section#categories main section:nth-child(3) a{
+    width: 236px;
+    height: auto;
+}
+section#categories main section img{
+    transition: all 0.4s ease-in-out;
+    object-fit: contain;
+    border: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+section#categories main section img:hover{
+    transform: scale(1.15,1.15);
+}
+section#categories footer{
+    width: 100%;
+    background: #000;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+    margin: 20px 0px;
+}
+/*  */
+
+
+/* FEATURED CATEGORIES End */
+
+/* FEATURED PRODUCTS Start */
+section#products{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+section#products header{
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section#products header h5{
+    color: #9b9b9b;
+    font-size: 14px;
+}
+section#products header h2{
+    font-family: Karla,'MS Sans Serif',Geneva,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+section#products header p{
+    color: #9b9b9b;
+    text-align: center;
+}
+section#products header p a{
+    color: #1aada3;
+    text-decoration: underline;
+}
+/* Main Section */
+section#products main{
+    padding: 0px 150px;
+    position: relative;
+    margin-bottom: 50px;
+}
+section#products main div.image{
+    width: 100%;
+    height: 96%;
+}
+section#products main div.image aside{
+    position: relative;
+    width: 100%;
+}
+section#products main div.image aside a:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+section#products main div.image aside img{
+    transition: all 0.1s ease-in-out;;
+}
+section#products main div.image aside img:nth-child(2){
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}
+section#products main div.image aside a.icon{
+    position: absolute;
+    right: 5%;
+    color: #000;
+    font-size: 1.1em;
+    transform: scale(0,0);
+    transition: all 0.2s ease-in-out;
+}
+section#products main div.image aside a.icon:nth-child(2){
+    top: 5%;
+}
+section#products main div.image aside a.icon:nth-child(3){
+    top: 15%;
+}
+section#products main div.image aside a.icon:nth-child(4){
+    top: 25%;
+}
+section#products main div.image footer{
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+section#products main div.image footer section.info p{
+    width: 100%;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+section#products main div.image footer section.info>a{
+    color: rgb(75, 73, 73);
+    text-decoration: none;
+    font-size: 0.85em;
+    border-bottom: 1px solid #bdb7b7;
+}
+section#products main div.image footer section.info p>span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(75, 73, 73);
+    font-size: 0.85em;
+    transition: all 0.2s ease-in-out;
+}
+section#products main div.image footer section.info p a{
+    color: rgb(75, 73, 73);
+    text-decoration: none;
+    font-size: 0.8em;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;   
+}
+section#products main div.image footer section.colorPro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px 10px;
+}
+section#products main div.image footer section.colorPro div{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 10px 5px;
+}
+section#products main div.image footer section.colorPro div p{
+    width: 100%;
+    height: 100%;
+}
+
+/* Change Image Section */
+section#products main #prev,
+section#products main #next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    opacity: 0;
+}
+section#products main #prev{
+    left: 2%;
+}
+section#products main #next{
+    right: 2%;
+}
+section#products main #prev a,
+section#products main #next a{
+    color: rgb(182, 177, 177);
+    text-decoration: none;
+    font-size: 2.5em;
+}
+/* Product View Details Section*/
+#productViewDetail{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    overflow-y: auto;
+    background: rgba(17, 17, 17, 0.6);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+#productViewDetail main{
+    width: 70%;
+    height: auto;
+    background: rgba(255, 255, 255);
+    z-index: 5001;
+    margin: auto;
+}
+#productViewDetail main section{
+    padding: 0px;
+    margin: 0px;
+}
+#productViewDetail main section div{
+    width: 100%;
+    height: 100%;
+}
+#productViewDetail main section div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#productViewDetail main section:first-child{
+    position: relative;
+}
+#productViewDetail main section:first-child aside{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    background: #000;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+#productViewDetail main section:first-child aside a{
+    color: #fff;
+    text-decoration: none;
+}
+#productViewDetail main section:first-child:hover aside{
+    overflow: visible;
+    opacity: 1;
+    height: 40px;
+}
+
+#productViewDetail main section:nth-child(2){
+    padding: 15px 20px;
+}
+#productViewDetail main section:nth-child(2) h2 a{
+    transition: all 0.1s ease-in-out;
+    color: #000;
+    text-decoration: none;
+}
+#productViewDetail main section:nth-child(2) h2 a:hover{
+    color: #1aada3;
+}
+#productViewDetail main section:nth-child(2) p.price{
+    color: #1aada3;
+    font-size: 2em;
+    margin: 20px 0px;
+}
+#productViewDetail main section:nth-child(2) p.article{
+    font-size: 0.9em;
+}
+
+#productViewDetail main section:nth-child(2) aside.buttonSec{
+    margin: 30px 0px;
+}
+#productViewDetail main section:nth-child(2) p span:first-child{
+    font-weight: bold;
+}
+#productViewDetail main section:nth-child(2) p span:nth-child(2){
+    margin-left: 10px;
+    color: #676767;
+}
+#productViewDetail main section:nth-child(2) p.share a{
+    margin: 0px 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #676767;
+}
+/* Product Compare Section */
+#productCompare{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    overflow-y: auto;
+    background: rgba(17, 17, 17, 0.6);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+#productCompare main{
+    width: 90%;
+    height: 80%;
+    background: rgba(255, 255, 255);
+    z-index: 5001;
+    margin: auto;
+    overflow: scroll;
+}
+#productCompare main table tr th:first-child{
+    width: 100px;
+    padding: 10px 100px 10px 20px;
+}
+#productCompare main table tr td{
+    width: 30%;
+}
+#productCompare main table tr span{
+    color: #777575;
+}
+#productCompare main table tr th a.closed{
+    cursor: pointer;
+    color: #000;
+}
+#productCompare main table tr:nth-child(6) span{
+    border:2px solid #297E29;
+    color: #297E29;
+    padding: 5px;
+    font-size: 0.8em;
+}
+/* FEATURED PRODUCTS End */
+
+/* Connect to Basel Section Start */
+#connect{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+#connect>aside{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#connect>aside img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#connect>main{
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section#connect main h5{
+    font-size: 26px;
+    color: #ffffff;
+    line-height: 1;
+    text-align: center;
+}
+section#connect main h1{
+    font-size: 58px;
+    color: #ffffff;
+    line-height: 1;
+    text-align: center;
+    margin: 20px 0px;
+}
+section#connect main p{
+    text-align: center;
+    margin: 20px 0px;
+    color: rgba(255,255,255,.8);
+}
+
+/* Input Consfiguration */
+section#connect main input[type="text"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 0px;
+    position: relative;
+    color: #ffffff;
+}
+section#connect main input[type="text"]:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* Button Configuration */
+section#connect main button[type="button"]{
+    padding: 0px 60px;
+    background: #ffffff;
+    color: #000;
+}
+section#connect main button[type="button"]:hover{
+    background: #444444;
+    color: rgb(252, 252, 252);
+}
+/* Connect to Basel Section End */
+
+/* LATEST NEWS section Start */
+section#latestNews{
+    width: 100%;
+    padding: 20px 60px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section#latestNews section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0px;
+}
+/* Image Configuration */
+section#latestNews section aside{
+    width: 350px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+section#latestNews section aside img{
+    transition: all 1.2s ease-in-out;
+}
+section#latestNews section aside img:hover{
+    transform: scale(1.15,1.15);
+}
+
+section#latestNews section aside div{
+    position: absolute;
+}
+section#latestNews section aside div.time{
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    left: 10px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: text;
+}
+section#latestNews section aside div.info{
+    width: 120px;
+    height: 30px;
+    background: #1aada3;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+section#latestNews section aside div.info span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/* Image under Configuration */
+section#latestNews section h5{
+    margin: 10px 0px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    color: #1B1919;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+section#latestNews section h5:hover{
+    color: #1aada3;
+    cursor: pointer;
+}
+section#latestNews section p{
+    color: #7a7a7a;
+}
+section#latestNews section p span{
+    transition: all 0.6s ease-in-out;
+    color:#1aada3; 
+    cursor: pointer;
+}
+section#latestNews section p span:hover{
+    text-decoration: underline;
+}
+/* LATEST NEWS section Start */
+
+
+/* About Shop Section Start */
+section#aboutShop{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section#aboutShop figure{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section#aboutShop figure img{
+    width: 100%;
+    height: 100%;
+}
+section#aboutShop main{
+    position: relative;
+    width: 60%;
+    text-align: center;
+}
+section#aboutShop aside{
+    width: 100%;
+    padding: 60px 0px;
+    background: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #676767;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    flex-direction: column;
+    border: 2px solid rgb(241, 241, 222);
+    line-height: 30px;
+}
+section#aboutShop aside:nth-child(1){
+    border-right: none;
+}
+section#aboutShop aside:nth-child(1) img{
+    width: 180px;
+    height: 40px;
+}
+section#aboutShop aside:nth-child(2) i{
+    font-size: 2em;
+}
+
+section#aboutShop aside:nth-child(2){
+    border-left: none;
+    color: rgb(0, 0, 0);
+}
+section#aboutShop aside:nth-child(2) h6{
+    font-family: Lato,'Comic Sans MS',cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* About Shop Section End */
+
+/* About Section Start */
+section#about{
+    width: 100%;
+    padding: 60px 120px;
+}
+/* Carousel Section */
+section#about aside#slide h3{
+    text-align: center;
+    font-size: 1.4em;
+}
+section#about aside#slide div.mainSlide{
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section#about aside#slide div.mainSlide img{
+    border-radius: 100%;
+}
+section#about aside#slide div.mainSlide span{
+    margin-top: 15px;
+    font-weight: 700;
+    color: #1B1919;
+}
+
+/* Insta Images Section */
+section#about aside#imgGroup section aside{
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+section#about aside#imgGroup section img{
+    width: 100%;
+}
+section#about aside#imgGroup section div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    background: rgba(5,5,5,.6);
+    color: rgb(228, 217, 217);
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+section#about aside#imgGroup section aside:hover div{
+    opacity: 1;
+    overflow: visible;
+    width: 100%;
+}
+/* About Section End */
+
+/* Carousel Section Start */
+section#Carousel{
+    width: 100%;
+    padding: 40px;
+    background: rgb(236, 236, 238);
+}
+section#Carousel aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section#Carousel aside p{
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 9px 30px;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgb(209, 205, 205);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/* Carousel */
+section#Carousel aside .slickImgWord{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+section#Carousel aside .slickImgWord img{
+    transform: scale(1.4,1.4);
+}
+
+/* Carusel Section End */
+
+/* Footer Section Start*/
+footer#foot{
+    width: 100%;
+    padding: 30px 50px;
+    color: rgba(255,255,255,.6);
+    background-color: #000;
+    font-size: 0.9em;
+}
+/* socialMedia Section */
+footer#foot #socialMedia i{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+footer#foot #socialMedia i:hover{
+    color: aliceblue;
+}
+
+/* Main Section */
+footer#foot main section:nth-child(5){
+    font-size: 0.9em;
+}
+footer#foot main section h4{
+    font-family: Karla;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+footer#foot main section div{
+    width: 20%;
+    height: 2px;
+    background: #ffffff;
+}
+
+footer#foot main section ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+footer#foot main section ul li{
+    margin: 5px 0px;
+}
+footer#foot main section ul li a{
+    color: gray;
+}
+footer#foot main section ul li a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+footer#foot>footer span{
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+}
+
+footer#foot>footer::before{
+    content: "";
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%;
+    background: #ffffff;
+    margin: 20px 0px 30px 0px;
+}
+footer#foot>footer span:hover{
+    text-decoration: underline;
+}
+
+/* Auto Bring to Top */
+#scroll {
+    position:fixed;
+    right:40px;
+    bottom:80px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:transparent;
+    text-indent:-9999px;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px;
+    border: 1px solid #171717;
+    transition: all 0.2s ease-in-out;
+    background: white;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#0e0d0d;
+}
+#scroll:hover {
+    background-color:#179a94;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+    border: none;
+    transform: scale(0.85);
+}
+#scroll:hover span{
+    border-bottom-color:#fff;
+}

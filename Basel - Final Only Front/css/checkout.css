@@ -1,0 +1,80 @@
+#checkoutInfo {
+  padding: 20px 0px;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #checkoutInfo h1 {
+    color: aliceblue; }
+  #checkoutInfo p {
+    color: aliceblue; }
+    #checkoutInfo p a {
+      color: aliceblue;
+      text-decoration: none; }
+      #checkoutInfo p a i {
+        font-size: 0.9em;
+        margin: 0px 5px; }
+
+#order {
+  padding: 20px; }
+  #order > form {
+    width: 80%;
+    margin: 30px auto; }
+    #order > form section:first-child h3 {
+      font-size: 1.5em; }
+    #order > form section:first-child aside {
+      margin: 30px 0px; }
+      #order > form section:first-child aside label {
+        font-size: 0.9em;
+        font-weight: 500; }
+      #order > form section:first-child aside input, #order > form section:first-child aside select {
+        border-radius: 0px; }
+        #order > form section:first-child aside input:focus, #order > form section:first-child aside select:focus {
+          box-shadow: 0 0 0 0;
+          border-color: black; }
+    #order > form section:nth-child(2) aside {
+      background: #f8f8f8;
+      border-radius: 10px;
+      padding-bottom: 20px; }
+      #order > form section:nth-child(2) aside h3 {
+        text-align: center;
+        font-size: 1.35em;
+        padding: 15px 0px; }
+      #order > form section:nth-child(2) aside .buyPro {
+        background: #ffffff;
+        margin: 0px 20px;
+        padding: 20px 0px;
+        border-radius: 10px; }
+        #order > form section:nth-child(2) aside .buyPro table thead tr th {
+          border-top: none; }
+        #order > form section:nth-child(2) aside .buyPro table thead th:last-child {
+          text-align: end; }
+        #order > form section:nth-child(2) aside .buyPro table tbody td {
+          font-size: 0.9em;
+          font-weight: 500; }
+          #order > form section:nth-child(2) aside .buyPro table tbody td:last-child {
+            text-align: end; }
+        #order > form section:nth-child(2) aside .buyPro table tbody tr:last-child {
+          border-bottom: 1px solid #e9e7e7; }
+        #order > form section:nth-child(2) aside .buyPro p {
+          padding: 0px 20px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          font-weight: bold;
+          font-size: 1.5em; }
+          #order > form section:nth-child(2) aside .buyPro p span.price {
+            color: #179a94; }
+      #order > form section:nth-child(2) aside section.userInfo {
+        margin: 25px; }
+        #order > form section:nth-child(2) aside section.userInfo p {
+          font-weight: bold;
+          font-size: 1.2em; }
+      #order > form section:nth-child(2) aside section:last-child {
+        padding: 0px 25px; }
+
+/*# sourceMappingURL=checkout.css.map */

@@ -1,0 +1,128 @@
+#account {
+  width: 100%;
+  padding: 15px 0px;
+  background: black;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #account h1 {
+    margin: 10px; }
+  #account p {
+    color: #d4cfcf; }
+    #account p a {
+      color: #d4cfcf;
+      margin: 0px 5px; }
+      #account p a i {
+        margin-right: 5px; }
+
+#loginRegister {
+  width: 100%;
+  height: auto;
+  padding: 20px 50px; }
+  #loginRegister section:nth-child(1) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column; }
+    #loginRegister section:nth-child(1) aside.login {
+      width: 80%;
+      padding: 40px;
+      border-right: 1px solid #e2e1e1;
+      transition: all 0.3s ease-in-out; }
+      #loginRegister section:nth-child(1) aside.login form {
+        margin: 30px 0px; }
+        #loginRegister section:nth-child(1) aside.login form div > label {
+          font-size: 0.9em;
+          color: #2b2a2a; }
+        #loginRegister section:nth-child(1) aside.login form div > input {
+          border-radius: 0px; }
+        #loginRegister section:nth-child(1) aside.login form div > input:focus {
+          border-color: black;
+          box-shadow: 0 0 0 0; }
+        #loginRegister section:nth-child(1) aside.login form > button {
+          border-radius: 0px;
+          border: 2px solid black;
+          transition: all 0.2s ease-in-out; }
+        #loginRegister section:nth-child(1) aside.login form > button:hover {
+          background: #000000;
+          color: #ffffff; }
+        #loginRegister section:nth-child(1) aside.login form #rememberSec {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row; }
+          #loginRegister section:nth-child(1) aside.login form #rememberSec div {
+            width: 30%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex-direction: row; }
+        #loginRegister section:nth-child(1) aside.login form #socialSec {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row; }
+          #loginRegister section:nth-child(1) aside.login form #socialSec button {
+            width: 45%;
+            margin: 0px;
+            border-radius: 0px; }
+            #loginRegister section:nth-child(1) aside.login form #socialSec button:first-child {
+              background: #3B5998; }
+    #loginRegister section:nth-child(1) aside.register {
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+      width: 80%;
+      padding: 40px;
+      border-right: 1px solid #e2e1e1;
+      transition: all 0.3s ease-in-out; }
+      #loginRegister section:nth-child(1) aside.register form {
+        margin: 30px 0px; }
+        #loginRegister section:nth-child(1) aside.register form div > label {
+          font-size: 0.9em;
+          color: #2b2a2a; }
+        #loginRegister section:nth-child(1) aside.register form div > input {
+          border-radius: 0px; }
+        #loginRegister section:nth-child(1) aside.register form div > input:focus {
+          border-color: black;
+          box-shadow: 0 0 0 0; }
+        #loginRegister section:nth-child(1) aside.register form p {
+          margin: 15px 0px;
+          font-size: 0.9em;
+          color: #5f5e5e; }
+        #loginRegister section:nth-child(1) aside.register form > button {
+          border-radius: 0px;
+          border: 2px solid black;
+          transition: all 0.2s ease-in-out; }
+        #loginRegister section:nth-child(1) aside.register form > button:hover {
+          background: #000000;
+          color: #ffffff; }
+  #loginRegister section:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px; }
+    #loginRegister section:nth-child(2) h2 {
+      font-weight: 500; }
+    #loginRegister section:nth-child(2) p {
+      margin: 20px 0px;
+      font-size: 0.95em;
+      text-align: center;
+      color: #2b2a2a; }
+    #loginRegister section:nth-child(2) aside button {
+      border-radius: 0px;
+      border: 0px;
+      background: #000000;
+      padding: 7px 25px; }
+    #loginRegister section:nth-child(2) button#login {
+      display: none; }
+
+/*# sourceMappingURL=Account.css.map */

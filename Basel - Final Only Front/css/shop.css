@@ -1,0 +1,197 @@
+#productNavigation {
+  padding: 20px 0px;
+  background: black; }
+  #productNavigation main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    #productNavigation main ul {
+      min-width: 40%;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #productNavigation main ul li {
+        margin: 0px 10px; }
+        #productNavigation main ul li a {
+          color: aliceblue;
+          cursor: pointer;
+          text-decoration: none;
+          transition: all 0.3s ease-in-out; }
+          #productNavigation main ul li a:hover {
+            border-bottom: 1px solid #f7f6f6; }
+
+#productsOpt {
+  padding: 20px 100px; }
+  #productsOpt header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 20px; }
+    #productsOpt header .navigation a {
+      color: #121213;
+      text-decoration: none;
+      font-size: 0.8em; }
+    #productsOpt header .navigation a:nth-child(2) {
+      color: gray; }
+    #productsOpt header .filterSec {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #productsOpt header .filterSec p.info {
+        margin: 0px 20px;
+        color: gray;
+        font-size: 0.8em; }
+      #productsOpt header .filterSec p.filter {
+        font-size: 0.95em;
+        cursor: pointer; }
+        #productsOpt header .filterSec p.filter span {
+          font-weight: 600; }
+        #productsOpt header .filterSec p.filter i {
+          font-size: 0.9em; }
+        #productsOpt header .filterSec p.filter i:nth-child(3) {
+          visibility: hidden;
+          opacity: 0;
+          display: none; }
+  #productsOpt section#filterSection {
+    background: #F9F9F9;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px; }
+    #productsOpt section#filterSection section {
+      padding: 0px 40px; }
+      #productsOpt section#filterSection section h2 {
+        font-size: 1.1em;
+        margin-top: 20px; }
+      #productsOpt section#filterSection section ul {
+        list-style: none;
+        margin: 30px 0px; }
+        #productsOpt section#filterSection section ul li {
+          margin: 10px 0px; }
+          #productsOpt section#filterSection section ul li a {
+            color: black;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            font-size: 0.9em; }
+            #productsOpt section#filterSection section ul li a:hover {
+              color: #1aada3;
+              text-decoration: underline; }
+    #productsOpt section#filterSection section:nth-child(3) li {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #productsOpt section#filterSection section:nth-child(3) li a {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row; }
+        #productsOpt section#filterSection section:nth-child(3) li a div {
+          width: 25px;
+          height: 25px;
+          border-radius: 100%;
+          margin: 0px 10px; }
+      #productsOpt section#filterSection section:nth-child(3) li p {
+        font-size: 0.9em;
+        color: gray; }
+    #productsOpt section#filterSection section:nth-child(4) ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #productsOpt section#filterSection section:nth-child(4) ul li {
+        margin: 10px 20px;
+        position: relative; }
+        #productsOpt section#filterSection section:nth-child(4) ul li span {
+          font-size: 0.8em;
+          position: absolute;
+          top: -8px;
+          right: -26px;
+          color: gray; }
+  #productsOpt > main {
+    position: relative;
+    margin-bottom: 50px; }
+    #productsOpt > main div.image {
+      width: 100%;
+      height: 96%; }
+      #productsOpt > main div.image aside {
+        position: relative;
+        width: 100%; }
+        #productsOpt > main div.image aside a:nth-child(1) {
+          display: block;
+          width: 100%;
+          height: 100%; }
+        #productsOpt > main div.image aside img {
+          transition: all 0.1s ease-in-out; }
+        #productsOpt > main div.image aside img:nth-child(2) {
+          opacity: 0;
+          visibility: hidden;
+          display: none; }
+        #productsOpt > main div.image aside a.icon {
+          position: absolute;
+          right: 5%;
+          color: #000;
+          font-size: 1.1em;
+          transform: scale(0, 0);
+          transition: all 0.2s ease-in-out; }
+        #productsOpt > main div.image aside a.icon:nth-child(2) {
+          top: 5%; }
+        #productsOpt > main div.image aside a.icon:nth-child(3) {
+          top: 15%; }
+        #productsOpt > main div.image aside a.icon:nth-child(4) {
+          top: 25%; }
+      #productsOpt > main div.image footer {
+        padding: 10px 0px; }
+        #productsOpt > main div.image footer p {
+          width: 100%;
+          height: 24px;
+          position: relative;
+          overflow: hidden;
+          line-height: 24px; }
+        #productsOpt > main div.image footer > a {
+          color: #4b4949;
+          text-decoration: none;
+          font-size: 0.85em;
+          border-bottom: 1px solid #bdb7b7; }
+        #productsOpt > main div.image footer p > span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          color: #4b4949;
+          font-size: 0.85em;
+          transition: all 0.2s ease-in-out; }
+        #productsOpt > main div.image footer p a {
+          color: #4b4949;
+          text-decoration: none;
+          font-size: 0.8em;
+          position: absolute;
+          top: 25px;
+          left: 0;
+          font-weight: bold;
+          transition: all 0.2s ease-in-out; }
+  #productsOpt > footer {
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    #productsOpt > footer ul {
+      margin: auto; }
+
+/*# sourceMappingURL=shop.css.map */

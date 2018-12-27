@@ -1,0 +1,142 @@
+#map .mapouter {
+  text-align: right;
+  height: 550px;
+  width: 100%;
+}
+#map .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 550px;
+  width: 100%;
+}
+
+#contact {
+  padding: 20px;
+}
+#contact > main {
+  width: 80%;
+  margin: 30px auto;
+}
+#contact > main section:first-child h3 {
+  font-size: 1.5em;
+  font-family: Karla,'MS Sans Serif',Geneva,sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+#contact > main section:first-child form {
+  margin: 30px 0px;
+}
+#contact > main section:first-child form label {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+#contact > main section:first-child form input, #contact > main section:first-child form select, #contact > main section:first-child form textarea {
+  border-radius: 0px;
+}
+#contact > main section:first-child form input:focus, #contact > main section:first-child form select:focus, #contact > main section:first-child form textarea:focus {
+  box-shadow: 0 0 0 0;
+  border-color: black;
+}
+#contact > main section:first-child form textarea {
+  resize: none;
+  height: 200px;
+}
+#contact > main section:first-child form button {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+  border-radius: 0;
+  border: 1px solid;
+  transition: all .25s ease-in-out;
+  border-color: #ECECEC;
+}
+#contact > main section:first-child form button:focus {
+  box-shadow: 0 0 0 0;
+}
+#contact > main section:nth-child(2) article {
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+#contact > main section:nth-child(2) article h3 {
+  font-size: 1.5em;
+  font-family: Karla,'MS Sans Serif',Geneva,sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+#contact > main section:nth-child(2) article p {
+  color: gray;
+  margin: 10px 0px;
+  font-size: 0.9em;
+  font-family: Karla,Arial,Helvetica,sans-serif;
+}
+#contact > main section:nth-child(2) footer {
+  margin: 20px 0px;
+}
+#contact > main section:nth-child(2) footer h2 {
+  font-size: 1.5em;
+  font-family: Karla,'MS Sans Serif',Geneva,sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+#contact > main section:nth-child(2) footer aside {
+  width: 100%;
+}
+#contact > main section:nth-child(2) footer aside section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 10px 0px;
+  padding: 0px;
+}
+#contact > main section:nth-child(2) footer aside section i {
+  font-size: 2.5em;
+  color: #3d3c3c;
+}
+#contact > main section:nth-child(2) footer aside section div:last-child {
+  margin: 0px 10px;
+}
+#contact > main section:nth-child(2) footer aside section div:last-child span {
+  font-size: 0.8em;
+  color: #585757;
+}
+#contact > main section:nth-child(2) footer section.social {
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+#contact > main section:nth-child(2) footer section.social a {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin: 0px 5px;
+  text-align: center;
+  color: #ECECEC;
+  line-height: 35px;
+}
+#contact > main section:nth-child(2) footer section.social a:nth-child(1) {
+  background: #365493;
+}
+#contact > main section:nth-child(2) footer section.social a:nth-child(2) {
+  background: #3CF;
+}
+#contact > main section:nth-child(2) footer section.social a:nth-child(3) {
+  background: #d44132;
+}
+#contact > main section:nth-child(2) footer section.social a:nth-child(4) {
+  background: #f89a1e;
+}
+
+/*# sourceMappingURL=contactUs.css.map */

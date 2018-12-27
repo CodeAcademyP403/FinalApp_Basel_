@@ -1,0 +1,277 @@
+#accountInfo {
+  width: 100%;
+  padding: 15px 0px;
+  background: black;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #accountInfo h1 {
+    margin: 10px; }
+  #accountInfo p {
+    color: #d4cfcf; }
+    #accountInfo p a {
+      color: #d4cfcf;
+      margin: 0px 5px; }
+      #accountInfo p a i {
+        margin-right: 5px; }
+
+#account {
+  padding: 50px 0px; }
+  #account > main {
+    width: 80%;
+    margin: auto; }
+    #account > main > section:first-child {
+      margin-bottom: 40px; }
+      #account > main > section:first-child aside p {
+        width: 100%;
+        padding: 12px 0px;
+        background: #000;
+        text-align: center;
+        color: #ffffff; }
+      #account > main > section:first-child aside ul {
+        list-style: none;
+        border-right: 1px solid rgba(136, 136, 136, 0.12);
+        border-left: 1px solid rgba(136, 136, 136, 0.12); }
+        #account > main > section:first-child aside ul li {
+          border-bottom: 1px solid rgba(136, 136, 136, 0.12); }
+          #account > main > section:first-child aside ul li a {
+            padding: 14px 20px;
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: rgba(71, 71, 71, 0.8);
+            transition: all .2s; }
+            #account > main > section:first-child aside ul li a:hover {
+              color: rgba(71, 71, 71, 0.8);
+              background-color: rgba(136, 136, 136, 0.05); }
+            #account > main > section:first-child aside ul li a:focus {
+              color: rgba(71, 71, 71, 0.8);
+              background-color: rgba(136, 136, 136, 0.05); }
+    #account > main section:last-child main section#dashboard p {
+      font-size: 16px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      font-family: Karla,Arial, Helvetica, sans-serif; }
+      #account > main section:last-child main section#dashboard p a {
+        border-bottom: 1px solid #c7c7c7;
+        color: #000; }
+        #account > main section:last-child main section#dashboard p a:hover {
+          text-decoration: none;
+          border-color: #A6A6A6;
+          background-color: transparent; }
+    #account > main section:last-child main section#dashboard > aside section {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-bottom: 20px; }
+      #account > main section:last-child main section#dashboard > aside section a {
+        color: rgba(71, 71, 71, 0.8);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 25px 20px;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        border: 1px solid rgba(136, 136, 136, 0.12);
+        text-decoration: none;
+        transition: all 0.2s ease-in-out; }
+        #account > main section:last-child main section#dashboard > aside section a i {
+          font-size: 3em;
+          color: #cecdcd;
+          margin-bottom: 5px;
+          transition: all 0.2s ease-in-out; }
+        #account > main section:last-child main section#dashboard > aside section a span {
+          font-size: 0.9em; }
+        #account > main section:last-child main section#dashboard > aside section a:hover {
+          background-color: rgba(136, 136, 136, 0.05); }
+          #account > main section:last-child main section#dashboard > aside section a:hover i {
+            color: #1aada3; }
+    #account > main section:last-child main section#orders table td {
+      vertical-align: middle;
+      font-size: 0.8em;
+      font-weight: 500;
+      position: relative; }
+    #account > main section:last-child main section#orders table button {
+      padding: .275rem .95rem;
+      font-size: 0.9rem; }
+    #account > main section:last-child main section#ordersView header > p {
+      padding: 20px;
+      background-color: #f9f9f9;
+      font-size: 14px;
+      font-family: Karla,Arial, Helvetica, sans-serif; }
+    #account > main section:last-child main section#ordersView header section.orderList {
+      margin: 40px 0px; }
+      #account > main section:last-child main section#ordersView header section.orderList h2 {
+        font-size: 1.4em;
+        text-align: center; }
+      #account > main section:last-child main section#ordersView header section.orderList table {
+        margin: 20px 0px; }
+        #account > main section:last-child main section#ordersView header section.orderList table thead tr th {
+          border-top: none;
+          font-size: 1.1em; }
+        #account > main section:last-child main section#ordersView header section.orderList table tr th:last-child, #account > main section:last-child main section#ordersView header section.orderList table tr td:last-child {
+          text-align: end; }
+        #account > main section:last-child main section#ordersView header section.orderList table tbody tr {
+          font-size: 0.9em;
+          color: #888686; }
+      #account > main section:last-child main section#ordersView header section.orderList p {
+        padding: 10px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        font-size: 1.3em;
+        font-weight: bold; }
+    #account > main section:last-child main section#ordersView footer main section h3 {
+      font-size: 1.5em; }
+    #account > main section:last-child main section#ordersView footer main section address, #account > main section:last-child main section#ordersView footer main section aside {
+      margin: 30px 0px;
+      padding: 25px 30px 30px 30px;
+      border: 2px dashed #d5d5d5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      line-height: 1.8;
+      font-style: italic;
+      margin-bottom: 20px;
+      color: #524f4f;
+      font-size: 0.9em; }
+    #account > main section:last-child main section#ordersView footer main section aside p span:first-child {
+      color: #1f1d1d;
+      font-weight: 500; }
+    #account > main section:last-child main section#downlaods p {
+      color: #AF7D27;
+      border-color: #E0B252;
+      background-color: transparent;
+      border: 2px solid;
+      border-radius: 0;
+      overflow: hidden;
+      margin: 0 0 20px 0;
+      padding: 14px 25px 14px 25px;
+      line-height: 1.4;
+      position: relative;
+      font-size: 14px; }
+    #account > main section:last-child main section#addresses p {
+      padding: 20px;
+      background-color: #f9f9f9;
+      font-size: 14px;
+      font-family: Karla,Arial, Helvetica, sans-serif; }
+    #account > main section:last-child main section#addresses section aside {
+      margin: 20px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: row; }
+      #account > main section:last-child main section#addresses section aside h3 {
+        font-size: 1.5em; }
+      #account > main section:last-child main section#addresses section aside a {
+        margin: 10px 0px 0px 5px;
+        color: #757474;
+        text-decoration: underline;
+        font-size: 0.9em; }
+    #account > main section:last-child main section#addresses section address {
+      margin: 30px 0px;
+      padding: 25px 30px 30px 30px;
+      border: 2px dashed #d5d5d5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      line-height: 1.8;
+      font-style: italic;
+      margin-bottom: 20px;
+      color: #524f4f;
+      font-size: 0.9em; }
+    #account > main section:last-child main section#addresses section aside p span:first-child {
+      color: #1f1d1d;
+      font-weight: 500; }
+    #account > main section:last-child main section#addressesUpdate h3 {
+      font-size: 1.5em; }
+    #account > main section:last-child main section#addressesUpdate form {
+      margin: 30px 0px; }
+      #account > main section:last-child main section#addressesUpdate form label {
+        font-size: 0.9em;
+        font-weight: 500; }
+      #account > main section:last-child main section#addressesUpdate form input, #account > main section:last-child main section#addressesUpdate form select {
+        border-radius: 0px; }
+        #account > main section:last-child main section#addressesUpdate form input:focus, #account > main section:last-child main section#addressesUpdate form select:focus {
+          box-shadow: 0 0 0 0;
+          border-color: black; }
+      #account > main section:last-child main section#addressesUpdate form button {
+        border-radius: 0px; }
+    #account > main section:last-child main section#accountDetails form label {
+      font-size: 0.9em;
+      font-weight: 500; }
+    #account > main section:last-child main section#accountDetails form input, #account > main section:last-child main section#accountDetails form select {
+      border-radius: 0px; }
+      #account > main section:last-child main section#accountDetails form input:focus, #account > main section:last-child main section#accountDetails form select:focus {
+        box-shadow: 0 0 0 0;
+        border-color: black; }
+    #account > main section:last-child main section#accountDetails form button {
+      border-radius: 0px; }
+    #account > main section:last-child main section#accountDetails form span {
+      font-size: 0.85em;
+      color: #3b3b3b; }
+    #account > main section:last-child main section#accountDetails form fieldset {
+      border: 2px solid #E6E6E6;
+      padding: 20px 40px;
+      margin-bottom: 20px; }
+      #account > main section:last-child main section#accountDetails form fieldset legend {
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 1.5;
+        font-family: Karla,Arial,Helvetica,sans-serif;
+        width: auto;
+        padding: 0 15px;
+        color: #3b3b3b;
+        letter-spacing: .3px; }
+      #account > main section:last-child main section#accountDetails form fieldset div {
+        margin-bottom: 20px; }
+    #account > main section:last-child main section#wishList h1 {
+      font-size: 1.6em;
+      margin-bottom: 20px; }
+    #account > main section:last-child main section#wishList table thead th {
+      border-top: none; }
+    #account > main section:last-child main section#wishList table tbody tr th {
+      height: 100%;
+      vertical-align: middle;
+      text-align: center;
+      font-size: 1.1em; }
+      #account > main section:last-child main section#wishList table tbody tr th i {
+        cursor: pointer; }
+    #account > main section:last-child main section#wishList table tbody tr td {
+      vertical-align: middle; }
+      #account > main section:last-child main section#wishList table tbody tr td aside {
+        width: 100px;
+        text-align: center; }
+        #account > main section:last-child main section#wishList table tbody tr td aside img {
+          width: 100%;
+          margin: auto; }
+      #account > main section:last-child main section#wishList table tbody tr td > p {
+        border: 2px solid #297E29;
+        color: #297E29;
+        padding: 5px;
+        font-size: 0.8em;
+        display: inline-block;
+        font-weight: 500; }
+      #account > main section:last-child main section#wishList table tbody tr td > button {
+        border-radius: 0px; }
+        #account > main section:last-child main section#wishList table tbody tr td > button:focus {
+          box-shadow: 0 0 0 0; }
+      #account > main section:last-child main section#wishList table tbody tr td > a {
+        color: black; }
+
+/*# sourceMappingURL=account.css.map */

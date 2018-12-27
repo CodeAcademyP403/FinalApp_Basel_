@@ -1,0 +1,102 @@
+#ordersInfo {
+  padding: 20px 0px;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #ordersInfo h1 {
+    color: aliceblue; }
+  #ordersInfo p {
+    color: aliceblue; }
+    #ordersInfo p a {
+      color: aliceblue;
+      text-decoration: none; }
+      #ordersInfo p a i {
+        font-size: 0.9em;
+        margin: 0px 5px; }
+
+#orders {
+  padding: 20px 0px;
+  margin: 20px 0px; }
+  #orders > main {
+    width: 55%;
+    margin: auto; }
+    #orders > main header > p {
+      background: 0 0;
+      border: 2px dashed #7a9c59;
+      color: #7a9c59;
+      font-weight: 600;
+      width: 100%;
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 30px;
+      line-height: 1.4;
+      padding: 15px 25px; }
+    #orders > main header ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row; }
+      #orders > main header ul li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-right: 1px solid #d3d1d1;
+        padding: 10px 35px; }
+        #orders > main header ul li:last-child {
+          border-right: none; }
+        #orders > main header ul li span:first-child {
+          font-weight: 400; }
+        #orders > main header ul li span:last-child {
+          font-weight: bold; }
+    #orders > main header section.orderList {
+      margin: 40px 0px; }
+      #orders > main header section.orderList h2 {
+        font-size: 1.4em;
+        text-align: center; }
+      #orders > main header section.orderList table {
+        margin: 20px 0px; }
+        #orders > main header section.orderList table thead tr th {
+          border-top: none;
+          font-size: 1.1em; }
+        #orders > main header section.orderList table tr th:last-child, #orders > main header section.orderList table tr td:last-child {
+          text-align: end; }
+        #orders > main header section.orderList table tbody tr {
+          font-size: 0.9em;
+          color: #888686; }
+      #orders > main header section.orderList p {
+        padding: 10px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        font-size: 1.3em;
+        font-weight: bold; }
+    #orders > main footer main section h3 {
+      font-size: 1.5em; }
+    #orders > main footer main section address, #orders > main footer main section aside {
+      margin: 30px 0px;
+      padding: 25px 30px 30px 30px;
+      border: 2px dashed #d5d5d5;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      line-height: 1.8;
+      font-style: italic;
+      margin-bottom: 20px;
+      color: #524f4f;
+      font-size: 0.9em; }
+    #orders > main footer main section aside p span:first-child {
+      color: #1f1d1d;
+      font-weight: 500; }
+
+/*# sourceMappingURL=orders.css.map */
